@@ -9,7 +9,7 @@
   t ∈ Term
   p, q, r, s ∈ Strategy"
   (:refer-clojure :exclude [find while repeat some spread])
-  #?(:cljs (:require-macros [meander.strategy.epsilon]))
+  #?(:cljs (:require-macros [meander.strategy.epmacro]))
   (:require
    [clojure.core :as clj]
    [clojure.set :as set]
